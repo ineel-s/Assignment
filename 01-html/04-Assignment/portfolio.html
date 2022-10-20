@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page is all about learning about html basics. Assignment 1">
+    <title>Consulting Portfolio</title>
+    <style>
+        body{
+            padding-left: 1px;
+        }
+        .ul_link{
+            padding: 0;
+        }
+                .ref_link{
+            display: inline;
+            
+        }
+        .tabel-border{
+            border-collapse:collapse;
+            
+            
+        }
+        .tabel-border,
+        th,
+        td{
+            border: 1px solid rgb(106, 104, 104);
+        }
+        th,td{
+            padding: 0.75em;
+        }
+        caption{
+            font-weight: bold;
+        }
+        .caption{
+            font-size: 1em;
+            padding-left: 7em;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="ul_link">
+            <li class="ref_link">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="ref_link">
+               <a href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="ref_link">
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        <h1>Example Consulting Pvt. Ltd.</h1>
+        <hr>
+    </nav>
+<main>
+    <h2>
+        Portfolio
+    </h2>
+    <h3>
+        Project 1
+    </h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit, aspernatur repellat consectetur recusandae perspiciatis optio sunt itaque quas similique iusto eum voluptatum necessitatibus nemo cupiditate nulla placeat dolore ratione.
+    </p>
+    <h3>
+        Project 2
+    </h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus placeat deleniti alias repellendus ex nisi, autem pariatur facere perspiciatis amet rem reprehenderit. Harum expedita rem tempore quis consectetur at recusandae.
+    </p>
+    <h2>Plans</h2>
+    <table class="tabel-border">
+        <thead>
+            <tr>
+            <th rowspan="2">Plan</th>
+            <th rowspan="2">Max cluster size</th>
+            <th rowspan="2">Cloud provider</th>
+            <th colspan="2">Price in USD (per code)</th>
+            
+            </tr>
+            <tr>
+                <th>Billed per hour</th>
+                <th>Billed per hour</th>
+            </tr>
+
+        </thead>
+        <tbody>
+           <tr>
+            <th rowspan="3">Free Tier</th>
+            <td>3</td>
+            <td>AWS</td>
+            <td>0</td>
+            <td>0</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>Azure</td>
+            <td>0</td>
+            <td>0</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>GCP</td>
+            <td>0</td>
+            <td>0</td>
+           </tr>
+           <tr>
+            <th rowspan="3">Basic</th>
+            <td>15</td>
+            <td>AWS</td>
+            <td>0.10</td>
+            <td>0.05</td>
+           </tr>
+           <tr>
+            <td>10</td>
+            <td>Azure</td>
+            <td>0.15</td>
+            <td>0.08</td>
+           </tr>
+           <tr>
+            <td>10</td>
+            <td>GCP</td>
+            <td>0.20</td>
+            <td>0.10</td>
+           </tr>
+           <tr>
+            <th rowspan="3">Pro</th>
+            <td>200</td>
+            <td>AWS</td>
+            <td>0.7</td>
+            <td>0.03</td>
+           </tr>
+           <tr>
+            <td>100</td>
+            <td>Azure</td>
+            <td>0.10</td>
+            <td>0.05</td>
+           </tr>
+           <tr>
+            <td>100</td>
+            <td>GCP</td>
+            <td>0.12</td>
+            <td>0.06</td>
+           </tr>
+        </tbody>
+        <!-- <caption>Hosting Plan and Pricing for various Cloud Providers</caption> -->
+    </table>
+    <h3 class="caption">Hosting Plan and Pricing for various Cloud Providers</h3>
+</main>
+    <footer>
+        <hr> 
+        &copy;example.com 
+    </footer>
+</body>
+</html>
